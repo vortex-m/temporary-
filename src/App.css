@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.upload-container {
+  margin: 20px;
+  padding: 20px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.file-upload-label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.file-upload-input {
+  display: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.upload-button,
+.sort-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.upload-button:hover,
+.sort-button:hover {
+  background-color: #45a049;
+}
+
+.file-list-section {
+  margin: 20px 0;
+}
+
+.file-list-section h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.file-list-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.file-list-section li {
+  background-color: #f1f1f1;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
